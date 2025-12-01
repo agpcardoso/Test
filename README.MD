@@ -50,6 +50,6 @@ Before running the application, make sure you have installed:
 
 3\. Open your browser and go to:
 
-&nbsp;   http://localhost8080/swagger
+&nbsp;   http://localhost:8080/swagger
     This will load the Swagger UI where you can test all endpoints.
 
