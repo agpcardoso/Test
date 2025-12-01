@@ -1,0 +1,119 @@
+###############################################################################
+# .NET / ASP.NET
+###############################################################################
+
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio caches
+.vs/
+
+# Configuration files generated at runtime
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Backup files
+*.bak
+
+# Publish output (optional, usually ignored)
+publish/
+*.publish.xml
+
+###############################################################################
+# Docker
+###############################################################################
+
+# Ignore Docker build leftovers
+docker-compose.override.yml
+docker-compose.*.local.yml
+docker-compose.override.yaml
+docker-compose.*.local.yaml
+
+# Docker logs
+**/docker-data/
+**/docker-logs/
+*.pid
+
+###############################################################################
+# Redis (local storage)
+###############################################################################
+
+# Redis dump files
+dump.rdb
+*.rdb
+appendonly.aof
+*.aof
+
+# Redis temp files
+*.rdb.tmp
+*.aof.tmp
+
+###############################################################################
+# Operating System files
+###############################################################################
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+###############################################################################
+# IDEs / Editors
+###############################################################################
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# JetBrains Rider
+.idea/
+*.iml
+
+###############################################################################
+# Git / Misc
+###############################################################################
+
+# Ignore sensitive files generated manually
+secrets.json
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore lock files
+project.lock.json
+package-lock.json
+
+# Ignore any temp folder
+tmp/
+temp/

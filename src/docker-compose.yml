@@ -1,0 +1,19 @@
+﻿version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      REDIS_CONNECTION_STRING: redis:6379
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
